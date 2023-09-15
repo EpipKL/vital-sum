@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap");
+
+* {
+  font-family: "Crimson Text", serif;
+}
+
+.fs-xxl {
+  font-size: 10rem;
+}
+
+.bg-primary {
+  background-color: #64285d !important;
+}
+
+.btn-primary {
+  background-color: #64285d !important;
+}
+
+.text-primary {
+  color: #64285d !important;
+}
+
+.bg-secondary {
+  background-color: #610536 !important;
+}
+
+.btn-secondary {
+  background-color: #610536 !important;
+}
+
+.text-secondary {
+  color: #610536 !important;
+}
+
+.bg-dark {
+  background-color: #1e1c1c !important;
+}
+
+.text-dark {
+  color: #1e1c1c !important;
+}
+
+.bg-light {
+  background-color: #959090 !important;
+}
+
+.text-light {
+  color: #959090 !important;
+}
+
+.bg-white {
+  background-color: #e7e1d4 !important;
+}
+
+.txt-white {
+  color: #e7e1d4 !important;
+}
+
+.bg-w {
+  background-color: rgb(248, 231, 185);
+}
+
+.txt-w {
+  color: rgb(249, 250, 244);
+}
+
+.bg-u {
+  background-color: rgb(179, 206, 234);
+}
+
+.txt-u {
+  color: rgb(14, 104, 171);
+}
+
+.bg-b {
+  background-color: rgb(165, 159, 157);
+}
+
+.txt-b {
+  color: rgb(21, 11, 0);
+}
+
+.bg-r {
+  background-color: rgb(235, 159, 130);
+}
+
+.txt-r {
+  color: rgb(211, 32, 42);
+}
+
+.bg-g {
+  background-color: rgb(196, 211, 202);
+}
+
+.txt-g {
+  color: rgb(0, 115, 62);
+}
+
+.bg-s {
+  background-color: rgb(213, 191, 235);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.life {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  user-select: none;
+  pointer-events: none;
+  font-size: 10em;
+}
