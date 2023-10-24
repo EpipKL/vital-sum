@@ -15,8 +15,11 @@ Vital Sum is your ultimate Magic the Gathering companion app, designed to stream
    `git clone https://github.com/EpipKL/vital-sum.git`
 
 2. **Install Dependencies:**
-   `cd vital-sum
- npm install`
+
+   ```
+   cd vital-sum
+   npm install
+   ```
 
 3. **Run the App:**
    `npm start`
@@ -28,6 +31,15 @@ Vital Sum is designed with customization in mind. You can easily adapt it to you
 
 - **Module Selection:** Enable or disable modules such as Poison Counters, Energy Counters, or Commander Damage.
 - **Settings:** Choose from a variety of built-in settings that suit your style as a player.
+
+## Technologies Used
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Bootstrap](https://getbootstrap.com/)
+- [React](https://react.dev/)
+- [Redux](https://redux.js.org/)
 
 ## Contributions
 

@@ -21,14 +21,16 @@ const ResetModal = () => {
 
       <Modal show={showModal} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>My Modal</Modal.Title>
+          <Modal.Title>Reset All</Modal.Title>
         </Modal.Header>
-        <Modal.Body>{/* Modal content goes here */}</Modal.Body>
+        <Modal.Body>
+          <h4>Would you like to reset all values & modules?</h4>
+        </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
+          <Button variant="success">Confirm</Button>
+          <Button variant="danger" onClick={handleClose}>
             Close
           </Button>
-          <Button variant="primary">Save Changes</Button>
         </Modal.Footer>
       </Modal>
     </>

@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import White from "./White/White";
 import Blue from "./Blue/Blue";
 import Black from "./Black/Black";
@@ -21,8 +22,6 @@ const ManaBox = () => {
         <Green></Green>
 
         <Colorless></Colorless>
-
-        <Storm></Storm>
 
         <div className="col-2 text-center text-white bg-secondary btn-secondary cursor-pointer d-flex align-items-center justify-content-center">
           <p className="fw-bold m-0 user-select-none">Mana Reset</p>
