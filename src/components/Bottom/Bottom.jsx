@@ -1,15 +1,10 @@
-import PlayerMenu from "./PlayerMenu";
-import One from "./Test/One";
-import Two from "./Test/Two";
+import PlayerMenu from "./Players/PlayerMenu";
 
 const Bottom = () => {
   return (
-    <div className="h-50 bg-white">
+    <section className="h-50 bg-white">
       <PlayerMenu />
-
-      <One></One>
-      <Two></Two>
-    </div>
+    </section>
   );
 };
 

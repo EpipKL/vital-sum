@@ -19,10 +19,24 @@ Vital Sum is a versatile and modular Magic the Gathering app designed to simplif
 2. Use the intuitive interface to update counters or roll dice/flip coins.
 3. Enjoy your Magic the Gathering game without the hassle of physical dice and counters.
 
-## Contributing
+Vital Sum is designed with customization in mind. You can easily adapt it to your preferred Magic the Gathering gameplay:
 
-We welcome contributions to enhance Vital Sum! To contribute:
+- **Module Selection:** Enable or disable modules such as Poison Counters, Energy Counters, or Commander Damage.
+- **Settings:** Choose from a variety of built-in settings that suit your style as a player.
 
+## Technologies Used
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Bootstrap](https://getbootstrap.com/)
+- [React](https://react.dev/)
+- [Redux](https://redux.js.org/)
+
+## Contributions
+
+Contributions are welcome! If you have ideas for improvements or new features, feel free to open an issue or submit a pull request.
+=======
 1. Fork the repository.
 2. Create a new branch for your feature: `git checkout -b feature-name`
 3. Make your changes and commit them: `git commit -m 'Add some feature'`

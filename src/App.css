@@ -52,6 +52,10 @@
   background-color: #e7e1d4 !important;
 }
 
+.player-border {
+  border: 1rem solid #1e1c1c !important;
+}
+
 .txt-white {
   color: #e7e1d4 !important;
 }

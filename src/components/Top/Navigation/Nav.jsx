@@ -1,9 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGear } from "@fortawesome/free-solid-svg-icons";
-import PlayerModal from "./PlayerModal";
+import { faGear, faUserGroup } from "@fortawesome/free-solid-svg-icons";
 import ResetModal from "./ResetModal";
 
-const Nav = () => {
+const Nav = ({ onClose }) => {
   return (
     <nav className="navbar bg-dark">
       <form className="container-fluid">
@@ -11,7 +10,10 @@ const Nav = () => {
           Vital Sum
         </a>
         <div className="">
-          <PlayerModal />
+          <button className="btn btn-primary">
+            <FontAwesomeIcon icon={faUserGroup} className="me-1" />
+            Players
+          </button>
           <ResetModal />
           <button
             id="settings"
