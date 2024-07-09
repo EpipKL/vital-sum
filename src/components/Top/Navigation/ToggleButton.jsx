@@ -1,5 +1,5 @@
 import React from "react";
-import { usePlayerMenu } from "../../../PlayerMenuContext";
+import { usePlayerMenu } from "../../../context/PlayerMenuContext";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserGroup } from "@fortawesome/free-solid-svg-icons";
 

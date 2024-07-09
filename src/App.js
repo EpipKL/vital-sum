@@ -1,10 +1,21 @@
 import "./App.css";
-import React from "react";
+import React, { useEffect } from "react";
 import Top from "./components/Top/Top";
 import Bottom from "./components/Bottom/Bottom";
-import { PlayerMenuProvider } from "./PlayerMenuContext";
+import { PlayerMenuProvider } from "./context/PlayerMenuContext";
+import { releaseWakeLock, requestWakeLock } from "./utils/wakeLockService";
 
 const App = () => {
+  useEffect(() => {
+    // Request a wake lock when app loads
+    requestWakeLock();
+
+    // Clean up
+    return () => {
+      releaseWakeLock();
+    };
+  });
+
   return (
     <main className="vw-100 vh-100 overflow-hidden">
       <PlayerMenuProvider>

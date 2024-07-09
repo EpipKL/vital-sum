@@ -4,7 +4,7 @@ import { faGear } from "@fortawesome/free-solid-svg-icons";
 import ResetModal from "./ResetModal";
 import ToggleButton from "./ToggleButton";
 
-const Nav = ({ togglePlayerMenu }) => {
+const Nav = () => {
   return (
     <nav className="navbar bg-dark">
       <form className="container-fluid">
@@ -12,7 +12,7 @@ const Nav = ({ togglePlayerMenu }) => {
           Vital Sum
         </a>
         <div className="">
-          <ToggleButton togglePlayerMenu={togglePlayerMenu} />
+          <ToggleButton />
           <ResetModal />
           <button
             id="settings"

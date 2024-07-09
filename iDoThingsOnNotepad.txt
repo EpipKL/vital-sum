@@ -1,0 +1,20 @@
+UPDATED
+• Completed Player Menu Screen and Functionality
+• Reset Button Works
+• Implemented Wake Lock API (No more screen turn offs)
+• Removed Mana Icons
+
+WIP
+• Module Selectors and Screens
+• Local Storage Context
+
+NEED TO START
+• The actual modules
+• Mana counter functionality
+• Create API so people can make their own
+Modules.
+
+NICE TO HAVES
+• Update modal UI
+• Touch inputs (Double Clicks, Hold Downs, etc)
+• Smoother animations

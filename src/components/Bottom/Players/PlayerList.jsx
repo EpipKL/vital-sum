@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { usePlayerMenu } from "../../../PlayerMenuContext";
+import { usePlayerMenu } from "../../../context/PlayerMenuContext";
 import PlayerRow from "./PlayerRow";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserPlus, faUserMinus, faXmark } from "@fortawesome/free-solid-svg-icons";

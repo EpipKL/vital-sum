@@ -1,7 +1,7 @@
 import PlayerMenu from "./Players/PlayerMenu";
 import TopModule from "./ModuleSelector/TopModule";
 import BottomModule from "./ModuleSelector/BottomModule";
-import { usePlayerMenu } from "../../PlayerMenuContext";
+import { usePlayerMenu } from "../../context/PlayerMenuContext";
 
 const Bottom = () => {
   const { playerMenuVisible } = usePlayerMenu();
