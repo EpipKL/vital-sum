@@ -1,5 +1,3 @@
-import React from "react";
-
 const PlayerRow = ({ player, setPlayers }) => {
   const { name, damage, editState, id } = player;
 
@@ -66,13 +64,17 @@ const PlayerRow = ({ player, setPlayers }) => {
       {/* Right Row */}
       <div className="d-flex flex-row me-1 mb-1">
         {/* Minus Sign */}
-        <div className="py-1 px-3 bg-danger text-white rounded" onClick={damageDown}>
+        <div
+          className="py-1 px-3 bg-danger text-white rounded user-select-none"
+          onClick={damageDown}>
           -
         </div>
         {/* Damage Total */}
         <div className="p-1 mx-2">{damage}</div>
         {/* Plus Sign */}
-        <div className="py-1 px-3 bg-success text-white rounded" onClick={damageUp}>
+        <div
+          className="py-1 px-3 bg-success text-white rounded user-select-none"
+          onClick={damageUp}>
           +
         </div>
       </div>

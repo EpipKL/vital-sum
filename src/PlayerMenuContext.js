@@ -1,16 +1,16 @@
-import React, { createContext, useContext, useState } from "react";
+import React, { createContext, useState, useContext } from "react";
 
 const PlayerMenuContext = createContext();
 
 export const PlayerMenuProvider = ({ children }) => {
-  const [isPlayerMenuVisible, setIsPlayerMenuVisible] = useState(true);
+  const [playerMenuVisible, setPlayerMenuVisible] = useState(false);
 
   const togglePlayerMenu = () => {
-    setIsPlayerMenuVisible((prev) => !prev);
+    setPlayerMenuVisible((prevState) => !prevState);
   };
 
   return (
-    <PlayerMenuContext.Provider value={{ isPlayerMenuVisible, togglePlayerMenu }}>
+    <PlayerMenuContext.Provider value={{ playerMenuVisible, togglePlayerMenu }}>
       {children}
     </PlayerMenuContext.Provider>
   );

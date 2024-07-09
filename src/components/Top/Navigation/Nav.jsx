@@ -1,8 +1,10 @@
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGear, faUserGroup } from "@fortawesome/free-solid-svg-icons";
+import { faGear } from "@fortawesome/free-solid-svg-icons";
 import ResetModal from "./ResetModal";
+import ToggleButton from "./ToggleButton";
 
-const Nav = ({ onClose }) => {
+const Nav = ({ togglePlayerMenu }) => {
   return (
     <nav className="navbar bg-dark">
       <form className="container-fluid">
@@ -10,15 +12,12 @@ const Nav = ({ onClose }) => {
           Vital Sum
         </a>
         <div className="">
-          <button className="btn btn-primary">
-            <FontAwesomeIcon icon={faUserGroup} className="me-1" />
-            Players
-          </button>
+          <ToggleButton togglePlayerMenu={togglePlayerMenu} />
           <ResetModal />
           <button
             id="settings"
             type="button"
-            className="btn btn-dark  ms-2"
+            className="btn btn-dark ms-2"
             data-bs-toggle="modal"
             data-bs-target="#settings">
             <FontAwesomeIcon icon={faGear} />

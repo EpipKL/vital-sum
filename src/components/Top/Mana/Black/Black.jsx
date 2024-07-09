@@ -12,10 +12,6 @@ const Black = () => {
     setBMana(bMana + 1);
   };
 
-  const bManaLoss = () => {
-    setBMana(bMana - 1);
-  };
-
   useEffect(() => {
     localStorage.setItem("b-mana", JSON.stringify(bMana));
   }, [bMana]);

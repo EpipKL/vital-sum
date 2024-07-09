@@ -1,3 +1,4 @@
+import React from "react";
 import Nav from "./Navigation/Nav";
 import LifeBox from "./Life/LifeBox";
 import ManaBox from "./Mana/ManaBox";
