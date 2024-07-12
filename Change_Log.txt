@@ -1,0 +1,22 @@
+UPDATED
+• Top half meets MVP
+    • All mana can be pressed by a single touch or down by double clicks
+    • Reset button for mana works
+    • Hold down on life to bring up or down by 10
+• Minor UI changes and fixes
+• Removed More Mana Icons
+• Cleaned up files 
+
+WIP
+• Module Selectors and Screens
+• Modules
+ • Counter Modules
+ • Dice Rolling Modules
+ • Coin Flipping Modules
+
+NEED TO START
+• Settings Menu
+
+NICE TO HAVES
+• Update modal UI
+• Smoother animations

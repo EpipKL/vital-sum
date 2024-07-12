@@ -9,6 +9,7 @@ const App = () => {
   useEffect(() => {
     // Request a wake lock when app loads
     requestWakeLock();
+    console.log("Wake lock has been activated");
 
     // Clean up
     return () => {
