@@ -46,7 +46,7 @@ const PlayerList = () => {
             <FontAwesomeIcon icon={faUserMinus} />
           </button>
         </div>
-        <button className="btn btn-secondary me-1" onClick={togglePlayerMenu}>
+        <button className="btn btn-secondary border-danger me-1" onClick={togglePlayerMenu}>
           <FontAwesomeIcon icon={faXmark} />
         </button>
       </div>

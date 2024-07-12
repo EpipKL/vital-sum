@@ -20,28 +20,7 @@ const ModuleSelector = () => {
     closeMenu();
   };
 
-  return (
-    <div className="app-container" onClick={openMenu}>
-      <div className="current-content">
-        {/* Current Content */}
-        {selectedModule ? <selectedModule.component /> : <div></div>}
-      </div>
-      {isMenuOpen && (
-        <div className="module-menu">
-          <ul>
-            {modules.map((module) => (
-              <li key={module.id} onClick={() => selectModule(module)}>
-                {module.name}
-              </li>
-            ))}
-          </ul>
-          <button onClick={closeMenu}>Close Menu</button>
-        </div>
-      )}
-      {isMenuOpen}
-      <FontAwesomeIcon icon={faPlus} className="fs-1" />
-    </div>
-  );
+  return <FontAwesomeIcon icon={faPlus} className="fs-1" />;
 };
 
 export default ModuleSelector;
